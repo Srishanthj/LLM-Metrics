@@ -1,2 +1,44 @@
-Timestamp,Prompt,Response Time (s),Token Usage
-2025-02-14 02:10:05,What is AI?,0.34,N/A
+Timestamp,Prompt,Response Time (s),Token Usage,Accuracy,Precision,Recall,F1-Score
+2025-02-14 16:22:06,What is AI?,4.48,263,0.98,1,0.76,0.86
+2025-02-14 16:22:13,Explain quantum computing in simple terms.,5.33,390,0.92,0.82,0.79,0.8
+2025-02-14 16:22:23,How does blockchain work?,8.2,597,0.96,0.94,0.76,0.84
+2025-02-14 16:22:32,What are the benefits of machine learning?,6.47,440,0.94,0.99,0.93,0.96
+2025-02-14 16:22:37,Who discovered gravity?,3.07,137,0.85,0.96,0.77,0.85
+2025-02-14 16:22:49,Summarize the history of the internet.,9.64,592,0.91,0.82,0.73,0.77
+2025-02-14 16:23:06,How does reinforcement learning work?,15.17,722,0.8,0.94,0.93,0.93
+2025-02-14 16:23:09,What is the capital of Japan?,1.13,22,0.89,0.95,0.91,0.93
+2025-02-14 16:23:15,Explain the Turing Test.,4.11,284,0.93,0.99,0.94,0.96
+2025-02-14 16:23:22,Define deep learning.,4.32,292,0.95,0.99,0.88,0.93
+2025-02-14 16:23:25,Who is the CEO of OpenAI?,1.14,52,0.9,0.92,0.92,0.92
+2025-02-14 16:23:37,What are the applications of NLP?,10.05,570,0.83,0.74,0.95,0.83
+2025-02-14 16:23:51,How does a neural network function?,12.08,788,0.86,0.93,0.94,0.93
+2025-02-14 16:23:59,What are LLMs used for?,5.54,433,0.92,0.81,0.98,0.89
+2025-02-14 16:24:10,Explain the concept of backpropagation.,9.13,534,1,0.8,0.83,0.81
+2025-02-14 16:24:20,What is the difference between AI and ML?,7.89,424,0.99,0.77,0.77,0.77
+2025-02-14 16:24:26,List some common programming languages.,4.6,250,0.91,0.86,0.75,0.8
+2025-02-14 16:24:41,What are ethical concerns in AI?,12.29,648,0.89,0.98,0.87,0.92
+2025-02-14 16:24:51,Describe supervised vs unsupervised learning.,7.99,448,0.97,0.8,0.95,0.87
+2025-02-14 16:24:58,What are transformer models in AI?,5.75,453,0.83,0.75,0.86,0.8
+2025-02-14 16:27:11,What is AI?,"Artificial Intelligence (AI) refers to the simulation of human intelligence in machines that are designed to think, learn, and adapt. These systems can perform tasks that typically require human intelligence, such as understanding natural language, recognizing patterns, solving problems, and making decisions. AI encompasses a range of technologies, including:
+
+1. **Machine Learning (ML)**: A subset of AI that involves algorithms that allow computers to learn from and make predictions based on data.
+
+2. **Deep Learning**: A further specialization of machine learning that uses neural networks with many layers to analyze various factors of data.
+
+3. **Natural Language Processing (NLP)**: Technologies that enable machines to understand, interpret, and respond to human language in a way that is both meaningful and contextually relevant.
+
+4. **Computer Vision**: The ability of machines to interpret and understand visual information from the world, enabling tasks like image recognition and facial recognition.
+
+5. **Robotics**: The design and use of robots that can perform tasks autonomously or semi-autonomously.
+
+AI can be categorized into two main types:
+
+- **Narrow AI**: These systems are designed and trained for specific tasks, such as virtual assistants (like Siri or Alexa), recommendation engines (like Netflix or Amazon), and autonomous vehicles.
+
+- **General AI**: This theoretical form of AI would possess the ability to understand, learn, and apply intelligence across a wide range of tasks at a human level. As of now, general AI does not exist.
+
+AI is used in various industries, including healthcare, finance, transportation, education, and entertainment, to improve efficiency, enhance decision-making, and provide better services.",12.96,345,8.29,0.08,0.08
+2025-02-14 16:27:12,Capital of Japan?,The capital of Japan is Tokyo.,1.06,19,28.57,0.29,0.29
+2025-02-14 16:27:15,Who discovered gravity?,"The concept of gravity as a natural phenomenon was significantly developed by Sir Isaac Newton in the 17th century. In his work ""Mathematical Principles of Natural Philosophy"" (often referred to simply as the Principia), published in 1687, Newton formulated the law of universal gravitation, describing gravity as a force that acts between all masses. However, the understanding of gravity has evolved over time, particularly with the development of Albert Einstein's theory of General Relativity in the early 20th century, which describes gravity not as a force but as the curvature of spacetime caused by mass.",2.52,132,3.85,0.04,0.04
+2025-02-14 16:27:17,Largest planet in the Solar System?,"The largest planet in the Solar System is Jupiter. It is a gas giant with a diameter of about 86,881 miles (139,822 kilometers) and is known for its prominent features, including the Great Red Spot, which is a giant storm, and its many moons.",1.71,71,5.62,0.06,0.06
+2025-02-14 16:27:19,Speed of light?,"The speed of light in a vacuum is approximately \(299,792,458\) meters per second, commonly rounded to \(3.00 \times 10^8\) meters per second. This speed is often denoted by the letter \(c\) in scientific equations and is a fundamental constant of nature. In different media, such as water or glass, light travels more slowly than in a vacuum.",2.22,95,6.74,0.07,0.07
